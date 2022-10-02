@@ -10,3 +10,53 @@ body {
     padding: 0;
     border: 0;
 }
+
+/* Flexbox Styles */
+
+.header-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-flex > h1 {
+    background-color: aquamarine;
+}
+
+.header-flex > nav {
+    background-color: blueviolet;
+}
+
+#main-image {
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#about div {
+    width: 33.3%;
+    background-color: blue;
+}
+
+#why-fly {
+    display: flex;
+    flex-direction: row;
+}
+
+#why-fly div {
+    width: 33.3%;
+    background-color: pink;
+}
+
+/* Navigation Settings */
+
+#links li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+
