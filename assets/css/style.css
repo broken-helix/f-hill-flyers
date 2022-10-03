@@ -11,6 +11,11 @@ body {
     border: 0;
 }
 
+h1, h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+}
+
 /* Flexbox Styles */
 
 .header-flex {
