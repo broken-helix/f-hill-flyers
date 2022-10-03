@@ -77,6 +77,23 @@ footer div {
     background-color: grey
 }
 
+/* Header Image */
+
+/*#header-image {
+    height: 200px;
+    width: 100%;
+    background: url('../images/PANO0001_stitch.jpg') no-repeat center center;
+}
+*/
+#main-image {
+    overflow: hidden;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
 /* Navigation Settings */
 
 #links {
