@@ -52,11 +52,33 @@ body {
     background-color: pink;
 }
 
+#contact {
+    display: flex;
+    flex-direction: row;
+}
+
+#contact div {
+    width: 100%;
+    background-color: green;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+footer div {
+    width: 100%;
+    background-color: grey
+}
+
 /* Navigation Settings */
+
+#links {
+    float:right
+}
 
 #links li {
     list-style-type: none;
     display: inline;
-    float: right;
 }
-
