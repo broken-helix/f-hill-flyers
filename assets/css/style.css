@@ -57,7 +57,7 @@ p {
 
 #why-fly {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #why-fly div {
