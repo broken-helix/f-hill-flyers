@@ -16,6 +16,14 @@ h1, h2 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 95%;
+}
+
+p {
+    font-size: 95%;
+}
+
 /* Flexbox Styles */
 
 .header-flex {
@@ -27,9 +35,8 @@ h1, h2 {
     background-color: aquamarine;
 }
 
-.header-flex > nav {
-    background-color: blueviolet;
-}
+/* .header-flex > nav {
+} */
 
 #main-image {
     display: flex;
@@ -43,8 +50,7 @@ h1, h2 {
 }
 
 #about div {
-    width: 33.3%;
-    background-color: blue;
+    width: 50%;
 }
 
 #why-fly {
@@ -79,12 +85,6 @@ footer div {
 
 /* Header Image */
 
-/*#header-image {
-    height: 200px;
-    width: 100%;
-    background: url('../images/PANO0001_stitch.jpg') no-repeat center center;
-}
-*/
 #main-image {
     overflow: hidden;
 }
@@ -103,4 +103,16 @@ footer div {
 #links li {
     list-style-type: none;
     display: inline;
+}
+
+/* Who Are We? Section */
+
+#about-image {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#who {
+    text-align: center;
 }
