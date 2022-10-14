@@ -80,9 +80,15 @@ h1, h2, h3 {
     background-color: green;
 }
 
-footer {
+/* footer {
     display: flex;
     flex-direction: row;
+} */
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
 
 footer div {
