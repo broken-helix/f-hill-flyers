@@ -66,6 +66,15 @@ h1, h2, h3 {
     text-align: center;
 }
 
+#contact_form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h3 {
+    text-align: center;
+}
+
 #contact div {
     width: 100%;
     background-color: green;
