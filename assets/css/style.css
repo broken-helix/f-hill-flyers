@@ -132,3 +132,8 @@ footer div {
     text-align: center;
     margin: auto;
 }
+
+/* Social Networks */
+.fa-brands {
+    color: black;
+}
