@@ -37,9 +37,12 @@ h1, h2, h3 {
     text-align: center;
 }
 
-#why-fly div {
-    width: 33.3%;
-    background-color: pink;
+#why-fly-box {
+    display: flex;
+    flex-direction: column;
+}
+
+#why-fly-box div {
 }
 
 #contact {
