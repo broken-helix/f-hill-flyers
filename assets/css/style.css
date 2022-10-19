@@ -43,6 +43,7 @@ h1, h2, h3 {
 }
 
 #why-fly-box div {
+    
 }
 
 #contact {
@@ -114,7 +115,20 @@ footer div {
     margin: auto;
 }
 
+/* Why Fly? Section */
+
+#why-image {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* Social Networks */
 .fa-brands {
     color: black;
 }
+
+/* Responsive Styles */
+
