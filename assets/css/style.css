@@ -40,10 +40,7 @@ h1, h2, h3 {
 #why-fly-box {
     display: flex;
     flex-direction: column;
-}
-
-#why-fly-box div {
-    
+    align-items: center;
 }
 
 #contact {
@@ -132,3 +129,11 @@ footer div {
 
 /* Responsive Styles */
 
+@media screen and (min-width: 800px) {
+    #why-fly-box {
+        flex-direction: row;
+    }
+    #why-fly-box div {
+        width: 33.3%;
+    }
+}
