@@ -55,10 +55,15 @@ h1, h2, h3 {
     flex-direction: column;
 }
 
-form div {
+.form-row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
     justify-content: flex-end;
+    border: solid 1px black;
 }
 
 #contact h3 {
@@ -101,7 +106,7 @@ footer div {
 /* Who Are We? Section */
 
 #about-image {
-    width:150px;
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 0 auto;
