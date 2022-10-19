@@ -55,13 +55,14 @@ h1, h2, h3 {
     flex-direction: column;
 }
 
-#contact h3 {
-    text-align: center;
+form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-#contact div {
-    width: 100%;
-    background-color: green;
+#contact h3 {
+    text-align: center;
 }
 
 .social-networks {
