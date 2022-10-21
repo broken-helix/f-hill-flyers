@@ -74,6 +74,7 @@ input {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    align-content: space-between;
 }
 
 footer div {
@@ -126,6 +127,10 @@ footer div {
     border-radius: 50%;
     margin: 0 auto;
     padding: 20px;
+}
+
+#left, #right {
+    margin: 10px 30px;
 }
 
 /* Social Networks */
