@@ -126,11 +126,14 @@ footer div {
     height: 150px;
     border-radius: 50%;
     margin: 0 auto;
-    padding: 20px;
 }
 
 #left, #right {
-    margin: 10px 30px;
+    margin: 0 30px;
+}
+
+.reasons {
+    margin: 15px 0 15px 0;
 }
 
 /* Social Networks */
