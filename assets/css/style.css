@@ -97,7 +97,7 @@ background-color: #F18F01;
 .responsive {
     width: 100%;
     height: auto;
-  }
+}
 
 /* Navigation Settings */
 
@@ -130,6 +130,10 @@ background-color: #F18F01;
 }
 
 /* Why Fly? Section */
+
+#why-fly {
+    background-color: #2CA58D;
+}
 
 #why-image {
     width:150px;
