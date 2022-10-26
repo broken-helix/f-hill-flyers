@@ -82,6 +82,12 @@ footer div {
     background-color: grey
 }
 
+/* Header */
+
+header {
+background-color: #F18F01;
+}
+
 /* Header Image */
 
 #main-image {
