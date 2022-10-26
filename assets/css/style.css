@@ -150,6 +150,12 @@ background-color: #F18F01;
     margin: 15px 0 15px 0;
 }
 
+/* Contact Form */
+
+#contact {
+    background-color: #19647E;
+}
+
 /* Social Networks */
 .fa-brands {
     color: black;
