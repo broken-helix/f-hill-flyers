@@ -24,6 +24,7 @@ h1 {
 
 h2 {
     color: #424B54;
+    margin: 20px 0 10px 0;
 }
 
 h3 {
@@ -168,7 +169,7 @@ header {
 }
 
 .reasons {
-    margin: 15px 0 15px 0;
+    margin: 5px 0 15px 0;
 }
 
 /* Contact Form */
