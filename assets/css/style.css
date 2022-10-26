@@ -3,6 +3,8 @@
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
+    background-color: #659157;
+    color: #EEF4D4
 }
 
 * {
@@ -85,7 +87,7 @@ footer div {
 /* Header */
 
 header {
-background-color: #F18F01;
+
 }
 
 /* Header Image */
@@ -113,7 +115,7 @@ background-color: #F18F01;
 /* Who Are We? Section */
 
 #about {
-    background-color: #19647E;
+
 }
 
 #about-image {
@@ -132,7 +134,7 @@ background-color: #F18F01;
 /* Why Fly? Section */
 
 #why-fly {
-    background-color: #2CA58D;
+
 }
 
 #why-image {
@@ -153,7 +155,7 @@ background-color: #F18F01;
 /* Contact Form */
 
 #contact {
-    background-color: #19647E;
+
 }
 
 /* Social Networks */
