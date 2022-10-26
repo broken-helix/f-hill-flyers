@@ -112,6 +112,10 @@ background-color: #F18F01;
 
 /* Who Are We? Section */
 
+#about {
+    background-color: #19647E;
+}
+
 #about-image {
     width: 150px;
     height: 150px;
