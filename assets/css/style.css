@@ -13,9 +13,22 @@ body {
     border: 0;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
+    color: #423E37;
+}
+
+h2 {
+    color: #424B54;
+}
+
+h3 {
+    color: #EEF4D4;
+}
+
+h3 > i {
+    color: #F1A208;
 }
 
 /* Flexbox Styles */
