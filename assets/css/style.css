@@ -35,6 +35,12 @@ h3 > i {
     color: #F1A208;
 }
 
+hr {
+    border-top: solid 2px #F1A208;
+    width: 30%;
+    margin: auto;
+}
+
 /* Flexbox Styles */
 
 .flex-col {
@@ -146,7 +152,7 @@ header {
 
 .who {
     text-align: center;
-    margin: 0 30px;
+    margin: 0 30px 10px 30px;
 }
 
 /* Why Fly? Section */
