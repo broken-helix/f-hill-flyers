@@ -89,7 +89,7 @@ input {
     text-align: center;
 }
 
-.social-networks {
+#social-networks {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -180,7 +180,9 @@ header {
 
 /* Social Networks */
 .fa-brands {
-    color: black;
+    color: #423E37;
+    margin: 10px;
+    font-size: 20px;
 }
 
 /* Responsive Styles */
