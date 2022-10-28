@@ -55,6 +55,13 @@ hr {
     align-items: center;
 }
 
+#about-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #why-fly {
     display: flex;
     flex-direction: column;
@@ -206,5 +213,14 @@ header {
     }
     #why-fly-box div {
         width: 33.3%;
+    }
+    #about-box {
+        flex-direction: row;
+    }
+    #about-box > div, p {
+        display: flex;
+        width: 33.3%;
+        flex-basis: 0;
+        flex-grow: 1;
     }
 }
