@@ -186,10 +186,15 @@ header {
 
 #left, #right {
     margin: 0 30px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .reasons {
     margin: 5px 0 15px 0;
+    display:  flex;
+    flex-direction: column;
 }
 
 /* Contact Form */
@@ -207,20 +212,21 @@ header {
 
 /* Responsive Styles */
 
-@media screen and (min-width: 800px) {
-    #why-fly-box {
-        flex-direction: row;
-    }
-    #why-fly-box div {
-        width: 33.3%;
-    }
+@media screen and (min-width: 800px) { 
     #about-box {
         flex-direction: row;
     }
-    #about-box > div, p {
+    #about-box > div, #about-box > p {
         display: flex;
         width: 33.3%;
         flex-basis: 0;
         flex-grow: 1;
+    }
+    #why-fly-box {
+        flex-direction: row;
+    }
+    #why-fly-box > div {
+        display: flex;
+        justify-content: center;
     }
 }
