@@ -1,108 +1,136 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Forest Hill Flyers
 
-Welcome James Evans,
+This project aims to design a website for the Forest Hill Flyers, a local group of drone pilots who meet regularly to fly drones. The primary purpose of the site is to attract new drone pilots to the club, via a contact form, which will enable the club to connect with potential new members.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The site features three sections, informing people what the club is about, the benefits of joining the club and a contact form which provides contact details to the club so that they can provide further information and encourage new membership.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsive Mockup](https://github.com/url.png)
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The main part of the project is to design a simple, single page site, which allows users to quickly determine the aims of the club, the benefits of joining and to be able to easily submit their details to find out more information, get answers to any outstanding questions and arrange a time to meet the organisers and other members.
 
-`python3 -m http.server`
+The site is designed with mobile phone users in mind and will, therefore, be designed to be viewed on mobile devices and then tailored to larger screen sizes.
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+- __Navigation Bar__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The navigation bar links to the three sections of the website, moving the user to the relevant sections of the page.
+  - The navigation is designed to be sticky, so it remains visible once the page has scrolled down, allowing the user to easily navigate to other sections of the page without having to scroll back to the top. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](https://github.com/url.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __The header image__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The header image includes an aerial drone photograph taken above Forest Hill, where the club is based.
 
-To log into the Heroku toolbelt CLI:
+![Landing Page](https://github.com/url.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __About Section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - The about section allows the users to get an understanding of the origins of the club and a brief understanding of the aims of the club and what it has to offer. 
+  - The section features an image illustrating drone flying.
 
-------
+![Club Ethos](https://github.com/url.png)
 
-## Release History
+- __Why Fly section__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - This section provides more detail on what the club has to offer potential members.  The section is split into four headings, with a brief explanation, with a central illustrative image.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Meetup Times](https://github.com/url.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __The Contact Us Section__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - This section will allow the interested user to find out more information, by completing a simple contact form. The user will be asked to submit their full name, email address and contains a message section which allows the user to ask any questions or provide any information they wish to add.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Sign Up](https://github.com/url.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __The Footer__ 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - The footer section includes links to the relevant social media sites for Forest Hill Flyers. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and shows club activities in far greater detail.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Footer](https://github.com/url.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+For some/all of your features, you may choose to reference the specific project files that implement them.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Features Left to Implement
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Another feature idea
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-------
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- active navbar links don't seem to work for single page websites without the use of javascript
+- internal links on same page depend on there being enough content to be able to scroll fully down the page.
 
-## FAQ about the uptime script
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Validator Testing 
 
-**How will this affect me?**
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Unfixed Bugs
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Deployment
 
-**So….?**
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**Can I opt out?**
+The live link can be found here - https://url.html 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Credits 
 
-**Anything more?**
+- link to articles dealing with scrolling to sections being covered by sticky header. 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
----
+### Content 
 
-Happy coding!
+- coolers colors
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- fonts
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site
+- The main photo was supplied by the website author
+
+
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+
+## Other General Project Advice
+
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
+  - Make sure to keep the messages in the imperative mood 
+
+- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
