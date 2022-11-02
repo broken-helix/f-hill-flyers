@@ -121,7 +121,6 @@ header {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    padding: 0 0 10px 0;
     z-index: 1;
     background-color: #EEF4D4;
 }
@@ -141,13 +140,22 @@ header {
 
 #links {
     display: flex;
-    width: 100%;
     justify-content: right;
     list-style-type: none;
 }
 
-#links a {
-    display: block;
+#links a, #links a:visited {
+    color: #424B54;
+    padding: 2px;
+    text-decoration: none;
+}
+
+#links a:hover {
+    color: #F1A208;
+}
+
+.active {
+    color: #F1A208;
 }
 
 /* Who Are We? Section */
