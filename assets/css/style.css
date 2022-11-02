@@ -158,6 +158,10 @@ header {
     color: #F1A208;
 }
 
+.scroll {
+    scroll-margin-top: 56px;
+}
+
 /* Who Are We? Section */
 
 #about {
@@ -252,5 +256,8 @@ header {
     }
     body, #message {
         font-size: 150%;
+    }
+    .scroll {
+        scroll-margin-top: 85px;
     }
 }
