@@ -123,7 +123,7 @@ header {
     top: 0;
     padding: 0 0 10px 0;
     z-index: 1;
-    background-color: #659157;
+    background-color: #EEF4D4;
 }
 
 /* Header Image */
@@ -143,10 +143,11 @@ header {
     display: flex;
     width: 100%;
     justify-content: right;
+    list-style-type: none;
 }
 
-#links li {
-    display: inline;
+#links a {
+    display: block;
 }
 
 /* Who Are We? Section */
