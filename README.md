@@ -1,6 +1,6 @@
 # Forest Hill Flyers
 
-This project aims to design a website for the Forest Hill Flyers, a local group of drone pilots who meet regularly to fly drones. The primary purpose of the site is to attract new drone pilots to the club, via a contact form, which will enable the club to connect with potential new members.
+This project aims to design a website for the Forest Hill Flyers, a local group of drone pilots who meet regularly to fly drones, share knowledge and network. The primary purpose of the site is to attract new drone pilots to the club, via a contact form, which will enable the club to connect with potential new members.
 
 The site features three sections, informing people what the club is about, the benefits of joining the club and a contact form which provides contact details to the club so that they can provide further information and encourage new membership.
 
