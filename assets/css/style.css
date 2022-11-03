@@ -265,6 +265,9 @@ label {
     input[type=submit] {
         width: 20%;
     }
+    .fa-brands {
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 800px) { 
@@ -313,6 +316,9 @@ label {
     }
     .container {
         margin: 30px 200px;
+    }
+    .fa-brands {
+        font-size: 40px;
     }
 }
 
