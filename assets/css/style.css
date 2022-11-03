@@ -199,7 +199,9 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    padding: 0 30px;
+    padding: 20px 30px;
+    background-color: rgba(66,75,84,0.5);
+    margin: 30px;
 }
   
 label {
