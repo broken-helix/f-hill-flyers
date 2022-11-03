@@ -289,6 +289,9 @@ label {
         width: 250px;
         height: 250px;
     }
+    .container {
+        margin: 30px 100px;
+    }
 }
 
 @media screen and (min-width: 1200px) { 
@@ -297,9 +300,12 @@ label {
         height: 350px;
     }
     body, #message {
-        font-size: 150%;
+        font-size: 120%;
     }
     .scroll {
         scroll-margin-top: 85px;
+    }
+    .container {
+        margin: 30px 200px;
     }
 }
