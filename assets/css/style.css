@@ -114,11 +114,12 @@ header {
     display: flex;
     justify-content: right;
     list-style-type: none;
+    margin-right: 10px;
 }
 
 #links a {
     color: #424B54;
-    padding: 2px;
+    margin: 2px;
     text-decoration: none;
 }
 
@@ -300,6 +301,9 @@ label {
     }
     #about-box, #why-fly-box {
         margin: 0 5%;
+    }
+    #links a {
+        padding: 5px;
     }
 }
 
