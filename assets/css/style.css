@@ -295,8 +295,8 @@ label {
     body, #message {
         font-size: 120%;
     }
-    .who {
-        margin: 0 60px 15px 60px;
+    #about-box, #why-fly-box {
+        margin: 0 5%;
     }
 }
 
@@ -314,7 +314,10 @@ label {
     .container {
         margin: 30px 200px;
     }
-    .who {
-        margin: 0 100px 15px 100px;
+}
+
+@media screen and (min-width: 1500px) { 
+    #about-box, #why-fly-box {
+        margin: 0 10%;
     }
 }
