@@ -65,19 +65,41 @@
     <hr>
     <section id="contact" class="scroll">
         <h2>Get In Touch</h2>
-        <form method="POST" action="https://formdump.codeinstitute.net" id="contact_form">
-            <div class="form-row">
-                <label for="name" class="contact-row">Your Name: </label>
-                <input type="text" id="name">
-            </div>
-            <div class="form-row">
-                <label for="email">Your Email: </label>
-                <input type="email" id="email">
-            </div>
-                <label for="message">Your message: </label>
-		        <textarea id="message" placeholder="Your message..." name="message" rows=5></textarea>
-            <input type="submit">
-        </form>
+        <div class="container">
+            <form method="POST" action="https://formdump.codeinstitute.net" id="contact_form">
+                <div class="form-row">
+                    <div class="col-25">
+                        <label for="fname" class="contact-row">First Name: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-25">
+                        <label for="lname" class="contact-row">Last Name: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-25">
+                        <label for="email">Your Email: </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email">
+                    </div>
+                </div>
+                <div class="col-25">
+                    <label for="message">Your message: </label>
+                </div>
+                <div class="col-75">
+		            <textarea id="message" placeholder="Your message..." name="message" rows=5></textarea>
+                </div>
+                <input type="submit">
+            </form>
+        </div>
     </section>
     <footer>
         <ul id="social-networks">
