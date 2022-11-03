@@ -68,39 +68,40 @@
         <div class="container">
             <form method="POST" action="https://formdump.codeinstitute.net" id="contact_form">
                 <div class="form-row">
-                    <div class="col-25">
+                    <div class="col-33">
                         <label for="fname" class="contact-row">First Name: </label>
                     </div>
-                    <div class="col-75">
-                        <input type="text" id="fname">
+                    <div class="col-66">
+                        <input type="text" id="fname" required>
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="col-25">
+                    <div class="col-33">
                         <label for="lname" class="contact-row">Last Name: </label>
                     </div>
-                    <div class="col-75">
-                        <input type="text" id="lname">
+                    <div class="col-66">
+                        <input type="text" id="lname" required>
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="col-25">
+                    <div class="col-33">
                         <label for="email">Your Email: </label>
                     </div>
-                    <div class="col-75">
-                        <input type="email" id="email">
+                    <div class="col-66">
+                        <input type="email" id="email" required>
                     </div>
                 </div>
-                <div class="col-25">
+                <div class="col-33">
                     <label for="message">Your message: </label>
                 </div>
-                <div class="col-75">
-		            <textarea id="message" placeholder="Your message..." name="message" rows=5></textarea>
+                <div class="col-66">
+		            <textarea id="message" placeholder="Your message..." name="message" rows=5 required></textarea>
                 </div>
                 <input type="submit">
             </form>
         </div>
     </section>
+    <hr>
     <footer>
         <ul id="social-networks">
             <li>

@@ -4,7 +4,7 @@ body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
     background-color: #659157;
-    color: #EEF4D4
+    color: #EEF4D4;
 }
 
 * {
@@ -81,11 +81,6 @@ hr {
     justify-content: center;
     list-style-type: none;
     align-content: space-between;
-}
-
-footer div {
-    width: 100%;
-    background-color: grey
 }
 
 /* Header */
@@ -190,6 +185,8 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     float: right;
+    width: 100%;
+    margin-top: 0;
 }
   
 input[type=submit]:hover {
@@ -198,8 +195,7 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #659157;
-    padding: 20px;
+    padding: 0 30px;
 }
   
 label {
@@ -207,19 +203,20 @@ label {
     display: inline-block;
 }
   
-.col-25 {
+.col-33 {
     float: left;
-    width: 25%;
-    margin-top: 6px;
+    width: 100%;
+    margin-top: 0;
 }
   
-.col-75 {
+.col-66 {
     float: left;
-    width: 75%;
-    margin-top: 6px;
+    width: 100%;
+    margin-top: 0;
 }
 
 /* Clear floats after the columns */
+
 .form-row:after {
     content: "";
     display: table;
@@ -227,6 +224,7 @@ label {
 }
 
 /* Footer */
+
 .fa-brands {
     color: #423E37;
     margin: 10px;
@@ -234,6 +232,21 @@ label {
 }
 
 /* Responsive Styles */
+
+@media screen and (min-width: 600px) {
+    .col-33, .col-66, input[type=submit] {
+        margin-top: 6px;
+    }
+    .col-33 {
+        width: 33.3%;
+    }
+    .col-66 {
+        width: 66.6%;
+    }
+    input[type=submit] {
+        width: 20%;
+    }
+}
 
 @media screen and (min-width: 800px) { 
     #about-box {
