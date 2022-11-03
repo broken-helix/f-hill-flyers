@@ -266,16 +266,16 @@ label {
         justify-content: center;
         width: 33.3%;
     }
-    #why-image, #about-image {
-        width:200px;
-        height: 200px;
+    .circle-image {
+        width: 250px;
+        height: 250px;
     }
 }
 
 @media screen and (min-width: 1200px) { 
-    #why-image, #about-image {
-        width: 300px;
-        height: 300px;
+    .circle-image {
+        width: 350px;
+        height: 350px;
     }
     body, #message {
         font-size: 150%;
