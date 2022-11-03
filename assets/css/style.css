@@ -15,7 +15,7 @@ body {
 
 h1, h2, h3 {
     font-family: Poppins, sans-serif;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 h1 {
@@ -162,20 +162,18 @@ header {
     scroll-margin-top: 56px;
 }
 
-/* Who Are We? Section */
+/* Section Images */
 
-#about {
-
-}
-
-#about-image {
+.circle-image {
     width:150px;
     height: 150px;
     border-radius: 50%;
-    margin: 10px auto 10px auto;
+    margin: 10px auto;
     padding: 10px;
     border: .2em solid #F1A208;
 }
+
+/* Who Are We? Section */
 
 .who {
     text-align: center;
@@ -183,19 +181,6 @@ header {
 }
 
 /* Why Fly? Section */
-
-#why-fly {
-
-}
-
-#why-image {
-    width:150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-    padding: 10px;
-    border: .2em solid #F1A208;
-}
 
 #left, #right {
     margin: 0 30px;
