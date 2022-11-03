@@ -236,6 +236,10 @@ label {
     margin: 60px 0;
 }
 
+#thank-you p {
+    margin-top: 20px;
+}
+
 /* Footer */
 
 .fa-brands {
