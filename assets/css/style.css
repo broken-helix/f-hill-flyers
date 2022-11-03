@@ -292,6 +292,9 @@ label {
     .container {
         margin: 30px 100px;
     }
+    body, #message {
+        font-size: 120%;
+    }
 }
 
 @media screen and (min-width: 1200px) { 
@@ -300,7 +303,7 @@ label {
         height: 350px;
     }
     body, #message {
-        font-size: 120%;
+        font-size: 140%;
     }
     .scroll {
         scroll-margin-top: 85px;
