@@ -3,8 +3,8 @@
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
-    background-color: #659157;
-    color: #424B54;
+    background-color: #fff;
+    color: #000;
 }
 
 * {
@@ -20,30 +20,30 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: #423E37;
+    color: #000;
     margin-left: 5px;
 }
 
 h2 {
-    color: #424B54;
+    color: #000;
     margin: 20px 0 10px 0;
     text-align: center;
 }
 
 h3 {
-    color: #424B54;
+    color: #000;
 }
 
 h3 > i {
-    color: #F1A208;
+    color: #FE9B02;
 }
 
 a {
-    color: #424B54;
+    color: #000;
 }
 
 hr {
-    border-top: solid 2px #F1A208;
+    border-top: solid 2px #FE9B02;
     width: 30%;
     margin: 20px auto;
 }
@@ -103,7 +103,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #EEF4D4;
+    background-color: #fff;
 }
 
 /* Header Image */
@@ -127,17 +127,17 @@ header {
 }
 
 #links a {
-    color: #424B54;
+    color: #000;
     margin: 2px;
     text-decoration: none;
 }
 
 #links a:hover {
-    color: #F1A208;
+    color: #FE9B02;
 }
 
 .active {
-    color: #F1A208;
+    color: #FE9B02;
 }
 
 .scroll {
@@ -152,7 +152,7 @@ header {
     border-radius: 50%;
     margin: 10px auto;
     padding: 10px;
-    border: .2em solid #F1A208;
+    border: .2em solid #FE9B02;
 }
 
 /* Who Are We? Section */
@@ -189,7 +189,7 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #EEF4D4;
+    background-color: #E9F0BC;
     border-radius: 4px;
 }
 
@@ -202,13 +202,13 @@ header {
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #EEF4D4;
+    border: 1px solid #E9F0BC;
     border-radius: 4px;
     resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #EEF4D4;
+    background-color: #E9F0BC;
     color: #424B54;
     padding: 12px 20px;
     border: none;
@@ -220,7 +220,7 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #F1A208;
+    background-color: #FE9B02;
 }
 
 .container {
