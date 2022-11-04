@@ -4,7 +4,7 @@ body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
     background-color: #659157;
-    color: #EEF4D4;
+    color: #424B54;
 }
 
 * {
@@ -27,10 +27,11 @@ h1 {
 h2 {
     color: #424B54;
     margin: 20px 0 10px 0;
+    text-align: center;
 }
 
 h3 {
-    color: #EEF4D4;
+    color: #424B54;
 }
 
 h3 > i {
@@ -78,6 +79,13 @@ hr {
 #why-fly-box {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -167,6 +175,22 @@ header {
     margin: 5px 0 15px 0;
     display:  flex;
     flex-direction: column;
+}
+
+/* Events */
+  
+.third {
+    width: 80%;
+    padding-bottom: 20px;
+}
+  
+  /* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #EEF4D4;
+    border-radius: 4px;
 }
 
 /* Contact Form */
