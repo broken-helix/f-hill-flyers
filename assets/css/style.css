@@ -38,12 +38,12 @@ h3 > i {
 }
 
 a {
-    color: #000;
+    color: #00063D;
 }
 
 hr {
-    border-top: solid 2px #F26419;
-    width: 30%;
+    border-top: solid 2px #FF7F11;
+    width: 20%;
     margin: 20px auto;
 }
 
@@ -102,7 +102,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #F6A02D;
+    background-color: #FF7F11;
 }
 
 /* Header Image */
@@ -125,17 +125,17 @@ header {
 }
 
 #links a {
-    color: #000;
+    color: #00063D;
     margin: 2px;
     text-decoration: none;
 }
 
 #links a:hover {
-    color: #FE9B02;
+    color: #0A6ACB;
 }
 
 .active {
-    color: #FE9B02;
+    color: #0A6ACB;
 }
 
 .scroll {
@@ -150,6 +150,10 @@ header {
     border-radius: 50%;
     margin: 10px auto;
     padding: 10px;
+    border: .2em solid #0A6ACB;
+}
+
+#about-image {
     border: .2em solid #F6A02D;
 }
 
@@ -187,7 +191,7 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: rgba(256,160,45,0.9);
+    background-color: rgba(246,160,45,0.9);
     border-radius: 4px;
 }
 
@@ -207,7 +211,7 @@ input[type=text], input[type=email], select, textarea {
 
 input[type=submit] {
     background-color: #EBEBEB;
-    color: #424B54;
+    color: #00063D;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -218,13 +222,13 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    background-color: #FE9B02;
+    background-color: #FF7F11;
 }
 
 .container {
     border-radius: 5px;
     padding: 20px 30px;
-    background-color: rgba(10,106,203,0.2);
+    background-color: rgba(10,106,203,0.3);
     margin: 30px;
 }
   
@@ -269,7 +273,7 @@ label {
 /* Footer */
 
 .fa-brands {
-    color: #423E37;
+    color: #00063D;
     margin: 10px;
     font-size: 20px;
 }
