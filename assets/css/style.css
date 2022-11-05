@@ -124,12 +124,14 @@ header {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    padding-bottom: 15px;
 }
 
 #links a {
     color: #00063D;
     margin: 2px;
     text-decoration: none;
+    padding-bottom: 15px;
 }
 
 #links a:hover {
@@ -141,7 +143,7 @@ header {
 }
 
 .scroll {
-    scroll-margin-top: 56px;
+    scroll-margin-top: 86px;
 }
 
 /* Section Images */
