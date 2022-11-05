@@ -184,8 +184,7 @@ header {
     padding-bottom: 20px;
 }
   
-/* Style the counter cards */
-
+  /* Style the counter cards */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -232,18 +231,20 @@ input[type=submit]:hover {
 }
   
 label {
-    padding: 5px 0 5px 0;
+    padding: 12px 12px 12px 0;
     display: inline-block;
 }
   
 .col-33 {
     float: left;
     width: 100%;
+    margin-top: 0;
 }
   
 .col-66 {
     float: left;
     width: 100%;
+    margin-top: 0;
 }
 
 /* Clear floats after the columns */
