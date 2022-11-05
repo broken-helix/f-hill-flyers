@@ -3,8 +3,7 @@
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
-    background-color: #fff;
-    color: #000;
+    background-color: #EBEBEB;
 }
 
 * {
@@ -20,22 +19,22 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: #000;
-    margin-left: 5px;
+    color: #00063D;
+    text-align: center;
 }
 
 h2 {
-    color: #000;
+    color: #00063D;
     margin: 20px 0 10px 0;
     text-align: center;
 }
 
 h3 {
-    color: #000;
+    color: #00063D;
 }
 
 h3 > i {
-    color: #FE9B02;
+    color: #0A6ACB;
 }
 
 a {
@@ -43,7 +42,7 @@ a {
 }
 
 hr {
-    border-top: solid 2px #FE9B02;
+    border-top: solid 2px #F26419;
     width: 30%;
     margin: 20px auto;
 }
@@ -103,7 +102,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #fff;
+    background-color: #F6A02D;
 }
 
 /* Header Image */
@@ -121,9 +120,8 @@ header {
 
 #links {
     display: flex;
-    justify-content: right;
+    justify-content: space-evenly;
     list-style-type: none;
-    margin-right: 10px;
 }
 
 #links a {
@@ -152,7 +150,7 @@ header {
     border-radius: 50%;
     margin: 10px auto;
     padding: 10px;
-    border: .2em solid #FE9B02;
+    border: .2em solid #F6A02D;
 }
 
 /* Who Are We? Section */
@@ -189,7 +187,7 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #E9F0BC;
+    background-color: rgba(256,160,45,0.9);
     border-radius: 4px;
 }
 
@@ -202,13 +200,13 @@ header {
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #E9F0BC;
+    border: 1px solid #0A6ACB;
     border-radius: 4px;
     resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #E9F0BC;
+    background-color: #EBEBEB;
     color: #424B54;
     padding: 12px 20px;
     border: none;
@@ -226,7 +224,7 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     padding: 20px 30px;
-    background-color: rgba(66,75,84,0.5);
+    background-color: rgba(10,106,203,0.2);
     margin: 30px;
 }
   
