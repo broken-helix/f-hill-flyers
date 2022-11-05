@@ -42,7 +42,7 @@ a {
 }
 
 hr {
-    border-top: solid 2px #FF7F11;
+    border-top: solid 2px #00063D;
     width: 20%;
     margin: 20px auto;
 }
@@ -59,6 +59,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 10%;
 }
 
 #about-box {
@@ -86,6 +87,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 30px;
 }
 
 #social-networks {
@@ -150,11 +152,7 @@ header {
     border-radius: 50%;
     margin: 10px auto;
     padding: 10px;
-    border: .2em solid #0A6ACB;
-}
-
-#about-image {
-    border: .2em solid #F6A02D;
+    border: .2em solid #FF7F11;
 }
 
 /* Who Are We? Section */
@@ -182,7 +180,7 @@ header {
 /* Events */
   
 .third {
-    width: 80%;
+    width: 100%;
     padding-bottom: 20px;
 }
   
@@ -302,6 +300,9 @@ label {
 }
 
 @media screen and (min-width: 800px) { 
+    #about {
+        margin: 0;
+    }
     #about-box {
         flex-direction: row;
     }
