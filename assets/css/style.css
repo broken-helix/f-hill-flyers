@@ -49,51 +49,6 @@ hr {
     margin: 20px auto;
 }
 
-/* Flexbox Styles */
-
-#about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10%;
-}
-
-#about-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#why-fly {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-#why-fly-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.events {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 10% 0 10%;
-}
-
-#social-networks {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    align-content: space-between;
-}
-
 /* Header */
 
 header {
@@ -117,7 +72,7 @@ header {
     height: auto;
 }
 
-/* Navigation Settings */
+/* Navigation */
 
 #links {
     display: flex;
@@ -144,18 +99,22 @@ header {
     scroll-margin-top: 86px;
 }
 
-/* Section Images */
+/* About Section */
 
-.circle-image {
-    width:150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 10px auto;
-    padding: 10px;
-    border: .2em solid #FF7F11;
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
 }
 
-/* Who Are We? Section */
+#about-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .who {
     text-align: center;
@@ -163,6 +122,19 @@ header {
 }
 
 /* Why Fly? Section */
+
+#why-fly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#why-fly-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #left, #right {
     margin: 0 30px;
@@ -177,14 +149,32 @@ header {
     flex-direction: column;
 }
 
+/* Section Images */
+
+.circle-image {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: .2em solid #FF7F11;
+}
+
 /* Events */
+
+.events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10% 0 10%;
+}
   
 .third {
     width: 100%;
     padding-bottom: 20px;
 }
-  
-  /* Style the counter cards */
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -270,6 +260,13 @@ label {
 
 /* Footer */
 
+#social-networks {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-content: space-between;
+}
+
 .fa-brands {
     color: #00063D;
     margin: 10px;
@@ -279,6 +276,20 @@ label {
 /* Responsive Styles */
 
 @media screen and (min-width: 600px) {
+    h1 {
+        margin-left: 10px;
+    }
+    .events {
+        flex-direction: row;
+        align-items: stretch;
+    }
+    .third {
+        display: flex;
+        padding: 1%;
+    }
+    .card {
+        flex-grow: 1;
+    }
     .col-33, .col-66, input[type=submit] {
         margin-top: 6px;
     }
@@ -294,23 +305,22 @@ label {
     .fa-brands {
         font-size: 30px;
     }
-    h1 {
-        margin-left: 10px;
-    }
-    .events {
-        flex-direction: row;
-        align-items: stretch;
-    }
-    .third {
-        display: flex;
-        padding: 1%;
-    }
-    .card {
-        flex-grow: 1;
-    }
 }
 
 @media screen and (min-width: 800px) { 
+    h1 {
+        text-align: left
+    }
+    body, #message {
+        font-size: 120%;
+    }
+    #links {
+        justify-content: flex-end;
+        padding-bottom: 5px;
+    }
+    #links a {
+        padding: 5px;
+    }
     #about {
         margin: 0;
     }
@@ -331,38 +341,24 @@ label {
         justify-content: center;
         width: 33.3%;
     }
+    #about-box, #why-fly-box {
+        margin: 0 5%;
+    }
     .circle-image {
         width: 250px;
         height: 250px;
     }
-    .container {
-        margin: 30px 15%;
-    }
-    body, #message {
-        font-size: 120%;
-    }
-    #about-box, #why-fly-box {
-        margin: 0 5%;
-    }
-    #links a {
-        padding: 5px;
-    }
     .events {
         margin: 30px 15% 0 15%;
     }
-    h1 {
-        text-align: left
-    }
-    #links {
-        justify-content: flex-end;
-        padding-bottom: 5px;
+    .container {
+        margin: 30px 15%;
     }
 }
 
 @media screen and (min-width: 1200px) { 
-    .circle-image {
-        width: 350px;
-        height: 350px;
+    h1 {
+        margin-left: 15px;
     }
     body, #message {
         font-size: 140%;
@@ -370,17 +366,18 @@ label {
     .scroll {
         scroll-margin-top: 85px;
     }
+    .circle-image {
+        width: 350px;
+        height: 350px;
+    }
+    .events {
+        margin: 30px 20% 0 20%;
+    }
     .container {
         margin: 30px 20%;
     }
     .fa-brands {
         font-size: 40px;
-    }
-    h1 {
-        margin-left: 15px;
-    }
-    .events {
-        margin: 30px 20% 0 20%;
     }
 }
 
