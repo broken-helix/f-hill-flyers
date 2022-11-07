@@ -124,14 +124,13 @@ header {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 #links a {
     color: #00063D;
     margin: 2px;
     text-decoration: none;
-    padding-bottom: 15px;
 }
 
 #links a:hover {
@@ -351,6 +350,13 @@ label {
     }
     .events {
         margin: 30px 15% 0 15%;
+    }
+    h1 {
+        text-align: left
+    }
+    #links {
+        justify-content: flex-end;
+        padding-bottom: 5px;
     }
 }
 
