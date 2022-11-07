@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand&display=swap');
 
+/* Default Styles */
+
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
@@ -49,11 +51,6 @@ hr {
 
 /* Flexbox Styles */
 
-.flex-col {
-    display: flex;
-    flex-direction: column;
-}
-
 #about {
     display: flex;
     flex-direction: column;
@@ -100,6 +97,8 @@ hr {
 /* Header */
 
 header {
+    display: flex;
+    flex-direction: column;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
