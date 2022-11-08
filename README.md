@@ -14,7 +14,6 @@ The creators of the club have asked for a web site to spread the word about what
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
-    * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
     * [***Typography**](#typography)
 1. [**Current Features**](#current-features)
@@ -114,7 +113,7 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * The image is responsive, growing in size as the viewport increases, whilst maintaining proportions.
 ​
 #### *About Section:*
-​
+
 * The about section provides users with a brief overview of what the club is about.  
 * The section is split into three parts, an introduction, a central image and a brief overview of activities the club offers.
 * On smaller screen sizes, the parts are displayed in a row down the page.
@@ -221,16 +220,17 @@ Here mention what technologies you've used for example
 - Flexbox
 ​
 ## **Credits**
+
 ### **Honorable mentions**
 ​
 * The input from my mentor, Richard Wells, was invaluable in providing support, directing me towards such technologies such as flexbox and showing me ways to check text contrast, use lighthouse and guiding me through the ReadMe file process.
 ​
 ### **Content:**
-​
+
 * Problems with sections displaying under the sticky header were resolved based on support offered on this stack overflow submission, whih gave clues about using a margin-top to position the content below the header - ![stackoverflow link](https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top/)
   
 ### **Media:**
-​
+
 * The main header image was provided by the web page author
 * The circular images contained in the About and Why Fly sections were located on Pexels.com and available for free useage.
 * About Image: ![Kobe- - Man Standing Beside Woman Playing Drone
