@@ -7,7 +7,8 @@ Whilst open to all members, the club has a great deal to offer people who are re
 The creators of the club have asked for a web site to spread the word about what they have to offer and allow prospective members to complete a form to make contact and get more information about the group and events.<br><br>
 ​
 ![Responsive Screenshot](/assets/images/am-i-responsive-screenshot.jpg)
-​
+***
+
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
@@ -35,28 +36,31 @@ The creators of the club have asked for a web site to spread the word about what
     * [**General reference**](#general-reference)
     * [**Content**](#content)
     * [**Media**](#media)
-​
+***
+
 ## **Planning stage**
 ### **Target Audiences:**
 
 * New owners of drones with no experience
 * Drone pilots with some experience 
 * Professional drone pilots looking to network with other pilots
-​
+***
 ### **User Stories:**
 
 * As a user, I want to see the subject matter of the page.
 * As a user, I want to navigate the page to find what I require quickly and easily.
 * As a user, I want to learn more about the benefits of joining the club
 * As a user, I want to be able to contact the club
-​
+***
+
 ### **Site Aims:**
 
 * To inform the user of the existence of the club
 * To inform the user about the benefits of joining an established club
 * To inform the user of the events they can get involved with
 * To offer the user an opportunity to get in contact
-​
+***
+
 ### **Color Scheme:**
 
 The color scheme was designed to incorporate blues (#00063D and #0A6ACB) and warm colors (#F26419 and #F6A02D).  
@@ -65,7 +69,8 @@ Sections alternate between blue and orange, to assist in separating the differen
 Colors were selected using the coolors color palette generator.  <br><br>
 
 ![Coolors Palette](/assets/images/blue-orange-palette.jpg)
-​
+***
+
 ## **Typography**
 
 * Throughout the page, there are two fonts used:
@@ -75,6 +80,7 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * Quicksand was chosen for its less formal sans serif style and incorporation of less formal 'rounded' letter 'a'.
 * Poppins was selected as a complementary font for the titles, as Quicksand lacked the impact for headings when scaled up in size.
 * All fonts were sourced from Google fonts, as stated in the credits.
+***
 
 ## **Current Features**
 
@@ -161,11 +167,13 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * The social media links allow users to see more detail about past events and provide further ways to connect with the group.
 * The links are styled to display as icons and increase in size and the page size increases.
 * The icons were sourced from FontAwesome.
-​
+***
+
 ## **Future-Enhancements**
 
-* The club have expressed a desire to host a blog page in the future, which will discuss events, information about flying drones and legal considerations.
-​
+* The club have expressed a desire to host a blog page in the future, which will discuss events, information about flying drones and legal considerations.  This could be in the form of inclusion of social media posts, automatically added to a page, to allow the owners control over adding the content.
+***
+
 ## **Testing Phase**
 
 * Responsiveness - The page was tested for responsiveness on screen sizes throughout the development stages, using chrome dev tools, which allowed the page to be adjusted to display on small and large screen sizes.
@@ -177,16 +185,17 @@ Colors were selected using the coolors color palette generator.  <br><br>
 ![html validator](/assets/images/html-validator.jpg)
 
 ![css validator](/assets/images/css-validation.jpg)
+***
 ​
 ## **Bugs**
-​
+
 * Issue - When using the links to navigate the page, the top parts of sections were hidden by the sticky header.
 * Cause - The sections were displayed at the top of the page and the sticky header remained in place.
-* Resolution - Sections were given a class called scroll and styled in the css file to have a margin equal to or greater than the height of the header section.  
+* Resolution - Sections were given a class called scroll and styled in the css file to have a margin equal to or greater than the height of the header section.<br><br>
   
-* Issue - All attempts to highlight the selected navigation link using html and css failed.
-* Cause - Further investigation into possible solutions, using google search and searches in the slack channels indicated that this was extremely difficult on single page websites, without the use of javascript, which was not contained in the brief for the project.
-* Resolution - The issue remained unresolved.  
+* Issue - Attempts to highlight the active navigation link using html and css failed.
+* Cause - Further investigation into possible solutions, using google search and searches in the slack channels indicated that this was extremely difficult on single page websites, without the use of javascript, which was not part of the brief for the project.
+* Resolution - The issue remained unresolved, although the relevant code was included in the css.<br><br>
   
 * Issue - When displaying the events card horizontally on larger screen sizes, some card displayed with a different height to others, dependent on the text contained within.
 * Cause - The events cards sizing was dependent on the text formatting within the card.
@@ -195,38 +204,40 @@ Colors were selected using the coolors color palette generator.  <br><br>
 
 ## **Deployment**
 
-I deployed the page on GitHub pages via the following procedure: -
+I deployed the page on GitHub pages via the following procedure:
 ​
-1. From the project's ![repository](https://github.com/broken-helix/f-hill-flyers), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/broken-helix/f-hill-flyers), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You can find the live site via the following URL - ![live webpage](https://broken-helix.github.io/f-hill-flyers/)
+The live site can be found at the following URL - [Forest Hill Flyers](https://broken-helix.github.io/f-hill-flyers/).
 ***
-​
+
 ## **Tech**
 ​
-Here mention what technologies you've used for example
+The following technologies were employed in the creation of the site:
 ​
 - HTML
 - CSS
 - Flexbox
+***
 ​
 ## **Credits**
 
 ### **Honorable mentions**
-​
+
 * The input from my mentor, Richard Wells, was invaluable in providing support, directing me towards such technologies such as flexbox and showing me ways to check text contrast, use lighthouse and guiding me through the ReadMe file process.
-​
+***
+
 ### **Content:**
 
-* Problems with sections displaying under the sticky header were resolved based on support offered on this stack overflow submission, whih gave clues about using a margin-top to position the content below the header - ![stackoverflow link](https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top/)
-  
+* Problems with sections displaying under the sticky header were resolved based on support offered on this [stack overflow submission](https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top/), which gave clues about using a margin-top to position the content below the header.
+***
+
 ### **Media:**
 
 * The main header image was provided by the web page author
-* The circular images contained in the About and Why Fly sections were located on Pexels.com and available for free useage.
-* About Image: ![Kobe- - Man Standing Beside Woman Playing Drone
-](https://www.pexels.com/photo/man-standing-beside-woman-playing-drone-1334517/)
+* The circular images contained in the About and Why Fly sections were located on [Pexels](https://www.pexels.com/) and available for free useage.
+* About Image: [Kobe- - Man Standing Beside Woman Playing Drone](https://www.pexels.com/photo/man-standing-beside-woman-playing-drone-1334517/)
 * Why Fly Image: [Matt Holobar - Flying Drone](https://www.pexels.com/photo/flying-drone-1757697/)
