@@ -94,7 +94,7 @@ header {
 .active {
     color: #0A6ACB;
 }
-
+/* Position sections underneath Header when using internal links */
 .scroll {
     scroll-margin-top: 86px;
 }

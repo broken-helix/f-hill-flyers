@@ -1,136 +1,230 @@
-# Forest Hill Flyers
+# **Forest Hill Flyers**
+## **Site Overview**
 
-This project aims to design a website for the Forest Hill Flyers, a local group of drone pilots who meet regularly to fly drones, share knowledge and network. The primary purpose of the site is to attract new drone pilots to the club, via a contact form, which will enable the club to connect with potential new members.
+Forest Hill Flyers is a local drone flying club in Forest Hill, a town and area in south-east London.  
+They offer drone pilots places to fly, technical suport and advice and community events, such as social events and day trips out of London.  
+Whilst open to all members, the club has a great deal to offer people who are relatively recent to the world of drones.  
+The creators of the club have asked for a web site to spread the word about what they have to offer and allow prospective members to complete a form to make contact and get more information about the group and events.<br><br>
+​
+![Responsive Screenshot](/assets/images/am-i-responsive-screenshot-black.jpg)
+​
+## Table of contents:
+1. [**Site Overview**](#site-overview)
+1. [**Planning stage**](#planning-stage)
+    * [***Target Audiences***](#target-audiences)
+    * [***User Stories***](#user-stories)
+    * [***Site Aims***](#site-aims)
+    * [***Wireframes***](#wireframes)
+    * [***Color Scheme***](#color-scheme)
+    * [***Typography**](#typography)
+1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
+    * [***Header Element:***](#header-element)
+    * [***The rest of your features***](#features)
+    * [**Footer**](#footer)
+1. [**Individual Page Content features**](#individual-page-content-features)
+    * [**About Page Content**](#about-page-content)
+    * [**Teachings Page Content**](#teachings-page-content)
+    * [**Community Page Content**](#community-page-content)
+    * [**Contact Page Content**](#contact-page-content)
+    * [**Form Feedback Page Content**](#form-feedback-page-content)
+1. [**Future-Enhancements**](#future-enhancements)
+1. [**Testing Phase**](#testing-phase)
+1. [**Deployment**](#deployment)
+1. [**Tech**](#tech)
+1. [**Credits**](#credits)
+    * [**Honorable mentions**](#honorable-mentions)
+    * [**General reference**](#general-reference)
+    * [**Content**](#content)
+    * [**Media**](#media)
+​
+## **Planning stage**
+### **Target Audiences:**
 
-The site features three sections, informing people what the club is about, the benefits of joining the club and a contact form which provides contact details to the club so that they can provide further information and encourage new membership.
+* New owners of drones with no experience
+* Drone pilots with some experience 
+* Professional drone pilots looking to network with other pilots
+​
+### **User Stories:**
 
-![Responsive Mockup](https://github.com/url.png)
+* As a user, I want to see the subject matter of the page.
+* As a user, I want to navigate the page to find what I require quickly and easily.
+* As a user, I want to learn more about the benefits of joining the club
+* As a user, I want to be able to contact the club
+​
+### **Site Aims:**
 
-## Features 
+* To inform the user of the existence of the club
+* To inform the user about the benefits of joining an established club
+* To inform the user of the events they can get involved with
+* To offer the user an opportunity to get in contact
+​
+### **Color Scheme:**
 
-The main part of the project is to design a simple, single page site, which allows users to quickly determine the aims of the club, the benefits of joining and to be able to easily submit their details to find out more information, get answers to any outstanding questions and arrange a time to meet the organisers and other members.
+The color scheme was designed to incorporate blues (#00063D and #0A6ACB) and warm colors (#F26419 and #F6A02D).  
+The colors were selected to associate with blue skies and sunsets, which are desirable for photography, with a complementary neutral background (#EBEBEB).  
+Sections alternate between blue and orange, to assist in separating the different sections as the user scrolls down the page.
+Colors were selected using the coolors color palette generator.  <br><br>
 
-The site is designed with mobile phone users in mind and will, therefore, be designed to be viewed on mobile devices and then tailored to larger screen sizes.
+![Coolors Palette](/assets/images/blue-orange-palette.jpg)
+​
+## **Typography**
 
-### Existing Features
+* Throughout the page, there are two fonts used:
+  * Poppins - For all headings. 
+  * Quicksand - for all content text.
+​
+* Quicksand was chosen for its less formal sans serif style and incorporation of less formal 'rounded' letter 'a'.
+* Poppins was selected as a complementary font for the titles, as Quicksand lacked the impact for headings when scaled up in size.
+* All fonts were sourced from Google fonts, as stated in the credits.
 
-- __Navigation Bar__
+## **Current Features**
 
-  - The navigation bar links to the three sections of the website, moving the user to the relevant sections of the page.
-  - The navigation is designed to be sticky, so it remains visible once the page has scrolled down, allowing the user to easily navigate to other sections of the page without having to scroll back to the top. 
+#### *Header Section:*
 
-![Nav Bar](https://github.com/url.png)
+* The Header section contains the H1 page title and navigation links.
+* The section is 'sticky', so remains in place at the top of the page when scrolling down or selecting the navigation links.
+* A bold orange color (#F26419) was used for the background to provide a clear contrast with the rest of the page.
 
-- __The header image__
+#### *Page Title:*
 
-  - The header image includes an aerial drone photograph taken above Forest Hill, where the club is based.
+* The H1 page title contains the name of the clu for whom the website is built.
+* On smaller screen sizes, the title is centered to provide a consistent centered view in keeping with the rest of the page on narrower screen sizes.
+* On larger screen sizes, the title is positioned to the left hand side, to provide a clear break between the title text and the navigation links.
+​
+#### *Navigation Bar:*
 
-![Landing Page](https://github.com/url.png)
+* The user is given links to each section of the page in the header section, which scroll the page down to the relevant section for easy navigation.
+* The navigation links, along with the header, have been made 'sticky' so that they are always visible on the page, allowing the user to link to other sections without having to scroll to the top.
+* On smaller devices, the navigation links are centered and well-spaced across the page, with padding below the links, to facilitate their selection on a mobile phone.
+* On larger screen sizes, the navigation links are positioned to the right and grouped together, to seperate them from the site title.
 
-- __About Section__
+![Mobile Header](/assets/images/mobile-header.jpg)
 
-  - The about section allows the users to get an understanding of the origins of the club and a brief understanding of the aims of the club and what it has to offer. 
-  - The section features an image illustrating drone flying.
+![Desktop Header](/assets/images/desktop-header-800px.jpg)
 
-![Club Ethos](https://github.com/url.png)
+#### *Header Image*
 
-- __Why Fly section__
+* The header image, displayed below the header content, is an aerial photograph above Forest Hill, where the club is based.
+* The image is responsive, growing in size as the viewport increases, whilst maintaining proportions.
+​
+#### *About Section:*
+​
+* The about section provides users with a brief overview of what the club is about.  
+* The section is split into three parts, an introduction, a central image and a brief overview of activities the club offers.
+* On smaller screen sizes, the parts are displayed in a row down the page.
+* On larger screen sizes, the parts are displayed as columns across the page, with text either side of the central image.
 
-  - This section provides more detail on what the club has to offer potential members.  The section is split into four headings, with a brief explanation, with a central illustrative image.
+![Mobile About Section](/assets/images/mobile-who-section.jpg)
 
-![Meetup Times](https://github.com/url.png)
+![Desktop About Section](/assets/images/desktop-who-section.jpg)
 
-- __The Contact Us Section__
+#### *Why Fly Section:*
 
-  - This section will allow the interested user to find out more information, by completing a simple contact form. The user will be asked to submit their full name, email address and contains a message section which allows the user to ask any questions or provide any information they wish to add.
+* This section provides users with more detailed examples of activities and opportunities the club offers.
+* The section again features a central image, with left and right sub-headings split into two parts each.
+* Each sub-heading has an icon which provides a visual cue to the user as the the subject of the sub-heading.
+* On smaller screens, the parts are displayed in a row down the page.
+* On larger screen sizes the parts are displayed in a column across the page, with two sub-headings either side of the central image.
 
-![Sign Up](https://github.com/url.png)
+![Mobile Why Fly Section](/assets/images/mobile-why-fly-section.jpg)
 
-- __The Footer__ 
+![Desktop Why Fly Section](/assets/images/desktop-why-fly-section.jpg)
 
-  - The footer section includes links to the relevant social media sites for Forest Hill Flyers. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media and shows club activities in far greater detail.
+#### *Events Section:*
 
-![Footer](https://github.com/url.png)
+* This section shows users examples of regular events the club offers and an example 'one-off' day trip out of London.
+* Users get an impression of the sorts of events they can expect from being a member of the club.
+* The section shows that the club is currently active.
+* On smaller screen sizes, the events are displayed vertically down the page.
+* On larger screen sizes, the events cards are displayed horizontally across the page.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![Mobile Events Section](/assets/images/mobile-events.jpg)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Desktop Events Section](/assets/images/desktop-events.jpg)
 
-### Features Left to Implement
+#### *Contact Us Section*
 
-- Another feature idea
+* This section provides users with a method of making contact with the club, via a form.
+* On smaller screen sizes, the form is styled to fit narrower viewports, with form labels and inputs stacked vertically.
+* On larger screen sizes, the form is stretched across the page, with labels displayed horizontally, in line with inputs.
+* Users are able to provide their name and contact email address and submit a message to ask questions or show their interest in the club.
+* Upon submitting the completed form, users are taken to a thank you page which shows users that their form has been submitted.
 
-## Testing 
+![Mobile Contact Section](/assets/images/mobile-contact-section.jpg)
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+![Desktop Contact Section](/assets/images/desktop-contact-section.jpg)
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+![Thank You Page](/assets/images/thank-you-page.jpg)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-- active navbar links don't seem to work for single page websites without the use of javascript
-- internal links on same page depend on there being enough content to be able to scroll fully down the page.
+#### *Footer Section*
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+* The footer section contains links to social media platforms where the club uploads images and video.
+* The social media links allow users to see more detail about past events and provide further ways to connect with the group.
+* The links are styled to display as icons and increase in size and the page size increases.
+* The icons were sourced from FontAwesome.
+​
+## **Future-Enhancements**
 
+* The club have expressed a desire to host a blog page in the future, which will discuss events, information about flying drones and legal considerations.
+​
+## **Testing Phase**
 
-### Validator Testing 
+* Responsiveness - The page was tested for responsiveness on screen sizes throughout the development stages, using chrome dev tools, which allowed the page to be adjusted to display on small and large screen sizes.
+​
+* Functionality - The links in the navigation have been selected individually to ensure they connect to the correct sections.  The form has been submitted without each input being completed to ensure that error messages are displayed, including entering email addresses without the '@' symbol.  The form has been submitted with correct entries to ensure that the Thank You page is displayed after submission.  The link returning users to the main page has been selected to make sure it is functioning correctly.
+​
+* Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
+​
+​
+## **Bugs**
+​
+We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
+​
+* Issue - When using the links to navigate the page, the top parts of sections were hidden by the sticky header.
+* Cause - The sections were displayed at the top of the page and the sticky header remained in place.
+* Resolution - Sections were given a class called scroll and styled in the css file to have a margin equal to or greater than the height of the header section.
 
+* Issue - All attempts to highlight the selected navigation link using html and css failed.
+* Cause - Further investigation into possible solutions, using google search and searches in the slack channels indicated that this was extremely difficult on single page websites, without the use of javascript, which was not contained in the brief for the project.
+* Resolution - The issue remained unresolved.
+
+* Issue - When displaying the events card horizontally on larger screen sizes, some card displayed with a different height to others, dependent on the text contained within.
+* Cause - The events cards sizing was dependent on the text formatting within the card.
+* Resolution - A css style of 'flex-grow: 1' was added to the cards so that they expanded vertically to take up the available space.
+​
+***
+## **Deployment**
+I deployed the page on GitHub pages via the following procedure: -
+​
+1. From the project's [repository](https://github.com/broken-helix/f-hill-flyers), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+​
+You  can find the live site via the following URL - [live webpage](https://broken-helix.github.io/f-hill-flyers/)
+***
+​
+## **Tech**
+​
+Here mention what technologies you've used for example
+​
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://url.html 
-
-
-## Credits 
-
-- link to articles dealing with scrolling to sections being covered by sticky header. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
-
-- coolers colors
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- fonts
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The main photo was supplied by the website author
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- Flexbox
+​
+## **Credits**
+### **Honorable mentions**
+​
+* The input from my mentor, Richard Wells, was invaluable in providing support, directing me towards such technologies such as flexbox and showing me ways to check text contrast, use lighthouse and guiding me through the ReadMe file process.
+​
+### **Content:**
+​
+* Problems with sections displaying under the sticky header were resolved based on support offered on this stack overflow submission, whih gave clues about using a margin-top to position the content below the header - [stackoverflow link](https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top/)
+  
+### **Media:**
+​
+* The main header image was provided by the web page author
+* The circular images contained in the About and Why Fly sections were located on Pexels.com and available for free useage.
+* About Image: [Kobe- - Man Standing Beside Woman Playing Drone
+](https://www.pexels.com/photo/man-standing-beside-woman-playing-drone-1334517/)
+* Why Fly Image: [Matt Holobar - Flying Drone](https://www.pexels.com/photo/flying-drone-1757697/)
