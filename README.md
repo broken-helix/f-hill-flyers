@@ -195,7 +195,7 @@ Colors were selected using the coolors color palette generator.  <br><br>
   
 * Issue - Attempts to highlight the active navigation link using html and css failed.
 * Cause - Further investigation into possible solutions, using google search and searches in the slack channels indicated that this was extremely difficult on single page websites, without the use of javascript, which was not part of the brief for the project.
-* Resolution - The issue remained unresolved, although the relevant code was included in the css.<br><br>
+* Resolution - The issue remained unresolved.<br><br>
   
 * Issue - When displaying the events card horizontally on larger screen sizes, some card displayed with a different height to others, dependent on the text contained within.
 * Cause - The events cards sizing was dependent on the text formatting within the card.
