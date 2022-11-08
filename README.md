@@ -173,8 +173,11 @@ Colors were selected using the coolors color palette generator.  <br><br>
 ​
 * Functionality - The links in the navigation have been selected individually to ensure they connect to the correct sections.  The form has been submitted without each input being completed to ensure that error messages are displayed, including entering email addresses without the '@' symbol.  The form has been submitted with correct entries to ensure that the Thank You page is displayed after submission.  The link returning users to the main page has been selected to make sure it is functioning correctly.
 ​
-* Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
-​
+* Validators
+
+![html validator](/assets/images/html-validator.jpg)
+
+![css validator](/assets/images/css-validation.jpg)
 ​
 ## **Bugs**
 ​
@@ -191,17 +194,18 @@ We always have bugs in development, a few bullet points here to talk about bugs 
 * Issue - When displaying the events card horizontally on larger screen sizes, some card displayed with a different height to others, dependent on the text contained within.
 * Cause - The events cards sizing was dependent on the text formatting within the card.
 * Resolution - A css style of 'flex-grow: 1' was added to the cards so that they expanded vertically to take up the available space.
-​
 ***
+
 ## **Deployment**
+
 I deployed the page on GitHub pages via the following procedure: -
 ​
-1. From the project's [repository](https://github.com/broken-helix/f-hill-flyers), go to the **Settings** tab.
+1. From the project's ![repository](https://github.com/broken-helix/f-hill-flyers), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You  can find the live site via the following URL - [live webpage](https://broken-helix.github.io/f-hill-flyers/)
+You can find the live site via the following URL - ![live webpage](https://broken-helix.github.io/f-hill-flyers/)
 ***
 ​
 ## **Tech**
@@ -219,12 +223,12 @@ Here mention what technologies you've used for example
 ​
 ### **Content:**
 ​
-* Problems with sections displaying under the sticky header were resolved based on support offered on this stack overflow submission, whih gave clues about using a margin-top to position the content below the header - [stackoverflow link](https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top/)
+* Problems with sections displaying under the sticky header were resolved based on support offered on this stack overflow submission, whih gave clues about using a margin-top to position the content below the header - ![stackoverflow link](https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top/)
   
 ### **Media:**
 ​
 * The main header image was provided by the web page author
 * The circular images contained in the About and Why Fly sections were located on Pexels.com and available for free useage.
-* About Image: [Kobe- - Man Standing Beside Woman Playing Drone
+* About Image: ![Kobe- - Man Standing Beside Woman Playing Drone
 ](https://www.pexels.com/photo/man-standing-beside-woman-playing-drone-1334517/)
 * Why Fly Image: [Matt Holobar - Flying Drone](https://www.pexels.com/photo/flying-drone-1757697/)
