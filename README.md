@@ -2,7 +2,7 @@
 ## **Site Overview**
 
 Forest Hill Flyers is a local drone flying club in Forest Hill, a town and area in south-east London.  
-They offer drone pilots places to fly, technical suport and advice and community events, such as social events and day trips out of London.  
+They offer drone pilots places to fly, technical support and advice and community events, such as social events and day trips out of London.  
 Whilst open to all members, the club has a great deal to offer people who are relatively recent to the world of drones.  
 The creators of the club have asked for a web site to spread the word about what they have to offer and allow prospective members to complete a form to make contact and get more information about the group and events.<br><br>
 ​
