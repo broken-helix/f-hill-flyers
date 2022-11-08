@@ -17,9 +17,15 @@ The creators of the club have asked for a web site to spread the word about what
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
     * [***Typography**](#typography)
-1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-    * [***Header Element:***](#header-element)
-    * [***The rest of your features***](#features)
+1. [**Current Features**](#current-features)
+    * [***Header Section:***](#header-section)
+    * [***Page Title:***](#page-title)
+    * [***Navigation Bar***](#navigation-bar)
+    * [***Header Image***](#header-image)
+    * [***About Section***](#about-section)
+    * [***Why Fly Section***](#why-fly-section)
+    * [***Events Section***](#events-section)
+    * [***Contact Section***](#contact-section)
     * [**Footer**](#footer)
 1. [**Individual Page Content features**](#individual-page-content-features)
     * [**About Page Content**](#about-page-content)
@@ -181,19 +187,17 @@ Colors were selected using the coolors color palette generator.  <br><br>
 ​
 ## **Bugs**
 ​
-We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
-​
 * Issue - When using the links to navigate the page, the top parts of sections were hidden by the sticky header.
 * Cause - The sections were displayed at the top of the page and the sticky header remained in place.
-* Resolution - Sections were given a class called scroll and styled in the css file to have a margin equal to or greater than the height of the header section.
-
+* Resolution - Sections were given a class called scroll and styled in the css file to have a margin equal to or greater than the height of the header section.  
+  
 * Issue - All attempts to highlight the selected navigation link using html and css failed.
 * Cause - Further investigation into possible solutions, using google search and searches in the slack channels indicated that this was extremely difficult on single page websites, without the use of javascript, which was not contained in the brief for the project.
-* Resolution - The issue remained unresolved.
-
+* Resolution - The issue remained unresolved.  
+  
 * Issue - When displaying the events card horizontally on larger screen sizes, some card displayed with a different height to others, dependent on the text contained within.
 * Cause - The events cards sizing was dependent on the text formatting within the card.
-* Resolution - A css style of 'flex-grow: 1' was added to the cards so that they expanded vertically to take up the available space.
+* Resolution - A css style of 'flex-grow: 1' was added to the cards so that they expanded vertically to take up the available space.  
 ***
 
 ## **Deployment**
