@@ -293,7 +293,8 @@ label {
 
 @media screen and (min-width: 800px) { 
     h1 {
-        text-align: left
+        text-align: left;
+        margin-left: 10px;
     }
     body, #message {
         font-size: 120%;
