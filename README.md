@@ -6,7 +6,7 @@ They offer drone pilots places to fly, technical support and advice and communit
 Whilst open to all members, the club has a great deal to offer people who are relatively recent to the world of drones.  
 The creators of the club have asked for a web site to spread the word about what they have to offer and allow prospective members to complete a form to make contact and get more information about the group and events.<br><br>
 ​
-![Responsive Screenshot](/assets/images/am-i-responsive-screenshot.jpg)
+![Responsive Screenshot](/docs/am-i-responsive-screenshot.jpg)
 ***
 
 ## Table of contents:
@@ -68,7 +68,7 @@ The colors were selected to associate with blue skies and sunsets, which are des
 Sections alternate between blue and orange, to assist in separating the different sections as the user scrolls down the page.
 Colors were selected using the coolors color palette generator.  <br><br>
 
-![Coolors Palette](/assets/images/blue-orange-palette.jpg)
+![Coolors Palette](/docs/blue-orange-palette.jpg)
 ***
 
 ## **Typography**
@@ -103,9 +103,9 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * On smaller devices, the navigation links are centered and well-spaced across the page, with padding below the links, to facilitate their selection on a mobile phone.
 * On larger screen sizes, the navigation links are positioned to the right and grouped together, to seperate them from the site title.
 
-![Mobile Header](/assets/images/mobile-header.jpg)
+![Mobile Header](/docs/mobile-header.jpg)
 
-![Desktop Header](/assets/images/desktop-header-800px.jpg)
+![Desktop Header](/docs/desktop-header.jpg)
 
 #### *Header Image*
 
@@ -119,9 +119,9 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * On smaller screen sizes, the parts are displayed in a row down the page.
 * On larger screen sizes, the parts are displayed as columns across the page, with text either side of the central image.
 
-![Mobile About Section](/assets/images/mobile-who-section.jpg)
+![Mobile About Section](/docs/mobile-who-section.jpg)
 
-![Desktop About Section](/assets/images/desktop-who-section.jpg)
+![Desktop About Section](/docs/desktop-who-section.jpg)
 
 #### *Why Fly Section:*
 
@@ -131,9 +131,9 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * On smaller screens, the parts are displayed in a row down the page.
 * On larger screen sizes the parts are displayed in a column across the page, with two sub-headings either side of the central image.
 
-![Mobile Why Fly Section](/assets/images/mobile-why-fly-section.jpg)
+![Mobile Why Fly Section](/docs/mobile-why-fly-section.jpg)
 
-![Desktop Why Fly Section](/assets/images/desktop-why-fly-section.jpg)
+![Desktop Why Fly Section](/docs/desktop-why-fly-section.jpg)
 
 #### *Events Section:*
 
@@ -143,9 +143,9 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * On smaller screen sizes, the events are displayed vertically down the page.
 * On larger screen sizes, the events cards are displayed horizontally across the page.
 
-![Mobile Events Section](/assets/images/mobile-events.jpg)
+![Mobile Events Section](/docs/mobile-events.jpg)
 
-![Desktop Events Section](/assets/images/desktop-events.jpg)
+![Desktop Events Section](/docs/desktop-events.jpg)
 
 #### *Contact Us Section*
 
@@ -155,11 +155,13 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * Users are able to provide their name and contact email address and submit a message to ask questions or show their interest in the club.
 * Upon submitting the completed form, users are taken to a thank you page which shows users that their form has been submitted.
 
-![Mobile Contact Section](/assets/images/mobile-contact-section.jpg)
+![Mobile Contact Section](/docs/mobile-contact-section.jpg)
 
-![Desktop Contact Section](/assets/images/desktop-contact-section.jpg)
+![Desktop Contact Section](/docs/desktop-contact-section.jpg)
 
-![Thank You Page](/assets/images/thank-you-page.jpg)
+![Mobile Thank You Page](/docs/thank-you-page.jpg)
+
+![Desktop Thank You Page](/docs/desktop-thank-you-page.jpg)
 
 #### *Footer Section*
 
@@ -176,15 +178,23 @@ Colors were selected using the coolors color palette generator.  <br><br>
 
 ## **Testing Phase**
 
-* Responsiveness - The page was tested for responsiveness on screen sizes throughout the development stages, using chrome dev tools, which allowed the page to be adjusted to display on small and large screen sizes.
+* Responsiveness - The page was tested for responsiveness on screen sizes throughout the development stages, using chrome dev tools, which allowed the page to be adjusted to display on small and large screen sizes.  The site was also tested using firefox on a desktop, on an android mobile phone using chrome, on an ipad and iphone 6 using safari and found to display correctly.
 ​
 * Functionality - The links in the navigation have been selected individually to ensure they connect to the correct sections.  The form has been submitted without each input being completed to ensure that error messages are displayed, including entering email addresses without the '@' symbol.  The form has been submitted with correct entries to ensure that the Thank You page is displayed after submission.  The link returning users to the main page has been selected to make sure it is functioning correctly.
+
+* Contrast - The contrast on the page was checked using the WCAG Color contrast checker plugin in chrome and found to pass the tests.
+
+![wcag color contrast checker results](/docs/contrast-check-screenshot.jpg)
+
+* Lighthouse - The site was checked using the Lighthouse chrome plugin and found to pas the tests.
+
+![lighthouse results](/docs/lighthouse-results-screenshot.jpg)
 ​
 * Validators
 
-![html validator](/assets/images/html-validator.jpg)
+![html validator](/docs/html-validator.jpg)
 
-![css validator](/assets/images/css-validation.jpg)
+![css validator](/docs/css-validation.jpg)
 ***
 ​
 ## **Bugs**
@@ -193,11 +203,7 @@ Colors were selected using the coolors color palette generator.  <br><br>
 * Cause - The sections were displayed at the top of the page and the sticky header remained in place.
 * Resolution - Sections were given a class called scroll and styled in the css file to have a margin equal to or greater than the height of the header section.<br><br>
   
-* Issue - Attempts to highlight the active navigation link using html and css failed.
-* Cause - Further investigation into possible solutions, using google search and searches in the slack channels indicated that this was extremely difficult on single page websites, without the use of javascript, which was not part of the brief for the project.
-* Resolution - The issue remained unresolved.<br><br>
-  
-* Issue - When displaying the events card horizontally on larger screen sizes, some card displayed with a different height to others, dependent on the text contained within.
+* Issue - When displaying the events card horizontally on larger screen sizes, some cards displayed with a different height to others, dependent on the text contained within.
 * Cause - The events cards sizing was dependent on the text formatting within the card.
 * Resolution - A css style of 'flex-grow: 1' was added to the cards so that they expanded vertically to take up the available space.  
 ***
@@ -220,7 +226,6 @@ The following technologies were employed in the creation of the site:
 ​
 - HTML
 - CSS
-- Flexbox
 ***
 ​
 ## **Credits**
