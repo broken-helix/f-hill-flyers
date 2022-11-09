@@ -227,7 +227,7 @@ The following technologies were employed in the creation of the site:
 - HTML
 - CSS
 ***
-​
+
 ## **Credits**
 
 ### **Honorable mentions**
