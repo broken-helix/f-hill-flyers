@@ -237,6 +237,10 @@ The following technologies were employed in the creation of the site:
 
 ### **Content:**
 
+* Fonts were sourced from [Google Fonts](https://fonts.google.com/).
+
+* Icons for the social media links and why fly section were sourced from [Font Awesome](https://fontawesome.com/icons).
+
 * Problems with sections displaying under the sticky header were resolved based on support offered on this [stack overflow submission](https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top/), which gave clues about using a margin-top to position the content below the header.
 ***
 
