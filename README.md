@@ -196,7 +196,7 @@ Colors were selected using the coolors color palette generator.  <br><br>
 
 ![css validator](/docs/css-validation.jpg)
 ***
-​
+
 ## **Bugs**
 
 * Issue - When using the links to navigate the page, the top parts of sections were hidden by the sticky header.
