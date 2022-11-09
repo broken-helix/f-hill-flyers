@@ -38,6 +38,11 @@ h3 > i {
     color: #0A6ACB;
 }
 
+a {
+    color: #00063D;
+    text-decoration: none;
+}
+
 hr {
     border-top: solid 2px #00063D;
     width: 20%;
@@ -70,11 +75,6 @@ header {
     justify-content: space-evenly;
     list-style-type: none;
     padding-bottom: 10px;
-}
-
-#links a {
-    color: #00063D;
-    text-decoration: none;
 }
 
 #links a:hover {
@@ -263,6 +263,9 @@ label {
 /* Responsive Styles */
 
 @media screen and (min-width: 600px) {
+    hr {
+        margin-top: 20px;
+    }
     .event-listings {
         flex-direction: row;
         align-items: stretch;
