@@ -2,14 +2,12 @@
 
 /* Default Styles */
 
-/* Add font for text in paragraphs and neutral background color */
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
     background-color: #EBEBEB;
 }
 
-/*Remove default padding and margins and include borders in box sizing*/
 * {
     margin: 0;
     padding: 0;
@@ -17,30 +15,25 @@ body {
     box-sizing: border-box;
 }
 
-/* Add font and deep blue color for titles */
 h1, h2, h3 {
     color: #00063D;
     font-family: Poppins, sans-serif;
     font-weight: 500;
 }
 
-/* Center site heading for mobile views */
 h1 {
     text-align: center;
 }
 
-/* Center section titles and add margin to top and bottom */
 h2 {
     margin: 20px 0 10px 0;
     text-align: center;
 }
 
-/* Add blue color to icons in Why Fly section */
 h3 > i {
     color: #0A6ACB;
 }
 
-/* Add border, width and color to breaks between sections */
 hr {
     border-top: solid 2px #00063D;
     width: 20%;
@@ -49,7 +42,6 @@ hr {
 
 /* Header */
 
-/* Make header 'sticky' and give contrasting background color */
 header {
     display: flex;
     flex-direction: column;
@@ -62,7 +54,6 @@ header {
 
 /* Header Image */
 
-/* Make header image responsive for different screen sizes */
 .responsive {
     width: 100%;
     height: auto;
@@ -70,7 +61,6 @@ header {
 
 /* Navigation */
 
-/* Space out navigation links for mobile views */
 #links {
     display: flex;
     justify-content: space-evenly;
@@ -78,25 +68,21 @@ header {
     padding-bottom: 10px;
 }
 
-/* Change navigation link color to match heading and remove underlines */
 #links a {
     color: #00063D;
     text-decoration: none;
 }
 
-/* Highlight links when hovered over with mouse */
 #links a:hover {
     color: #0A6ACB;
 }
 
-/* Position sections underneath Header when using internal links */
 .scroll {
     scroll-margin-top: 78px;
 }
 
 /* About Section */
 
-/* Display about section elements vertically for display on mobile devices and center content */
 #about {
     display: flex;
     flex-direction: column;
@@ -105,7 +91,6 @@ header {
     margin: 0 10%;
 }
 
-/* Center about image */
 #about-box {
     display: flex;
     flex-direction: column;
@@ -113,7 +98,6 @@ header {
     align-items: center;
 }
 
-/* Center and add margins to text in about section */
 .who {
     text-align: center;
     margin: 0 30px 15px 30px;
@@ -121,7 +105,6 @@ header {
 
 /* Why Fly? Section */
 
-/* Display why fly section elements vertically for display on mobile devices and center content */
 #why-fly {
     display: flex;
     flex-direction: column;
@@ -129,14 +112,12 @@ header {
     text-align: center;
 }
 
-/* Center why fly image */
 #why-fly-box {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Position elements horizontally and add margins */
 #left, #right {
     margin: 0 30px;
     display:  flex;
@@ -144,7 +125,6 @@ header {
     align-items: center;
 }
 
-/* Add margins to text elements */
 .reasons {
     margin: 5px 0 15px 0;
     display:  flex;
@@ -153,7 +133,6 @@ header {
 
 /* Section Images */
 
-/* Style images in about and why fly sections to display as circles with border */
 .circle-image {
     width:150px;
     height: 150px;
@@ -165,7 +144,6 @@ header {
 
 /* Events */
 
-/* Display cards horizontally */
 .events {
     display: flex;
     flex-direction: column;
@@ -174,13 +152,11 @@ header {
     margin: 30px 10% 0 10%;
 }
 
-/* Make cards take up width of page and add padding between */
 .third {
     width: 100%;
     padding-bottom: 20px;
 }
 
-/* Add color and shadows to cards */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -191,12 +167,10 @@ header {
 
 /* Contact Form */
 
-/* Center contact form title */
 #contact h2 {
     text-align: center;
 }
 
-/* Style input sections of contact form */
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
@@ -205,7 +179,6 @@ input[type=text], input[type=email], select, textarea {
     resize: vertical;
 }
 
-/* Style submit button of contact form */
 input[type=submit] {
     background-color: #EBEBEB;
     color: #00063D;
@@ -218,12 +191,10 @@ input[type=submit] {
     margin-top: 20px;
 }
 
-/* Change color of submit button when hovered over with mouse */
 input[type=submit]:hover {
     background-color: #FF7F11;
 }
 
-/* Add colored box around contact form */
 .container {
     border-radius: 5px;
     padding: 20px 30px;
@@ -231,13 +202,11 @@ input[type=submit]:hover {
     margin: 10%;
 }
 
-/* Style labels for form */
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
 
-/* Style labels and inputs for form to stack above one another */
 .col-33 {
     float: left;
     width: 100%;
@@ -272,7 +241,6 @@ label {
 
 /* Footer */
 
-/* Center social media links with space between */
 #social-networks {
     display: flex;
     justify-content: center;
@@ -280,7 +248,6 @@ label {
     align-content: space-between;
 }
 
-/* Add color to social media icons, increase size and add margin all around */
 .fa-brands {
     color: #00063D;
     margin: 10px;
@@ -290,42 +257,29 @@ label {
 /* Responsive Styles */
 
 @media screen and (min-width: 600px) {
-    /* Display events cards horizontally */
     .events {
         flex-direction: row;
         align-items: stretch;
     }
-
-    /* Add padding between event cards */
     .third {
         display: flex;
         padding: 1%;
     }
-
-    /* Make event cards display at equal height */
     .card {
         flex-grow: 1;
     }
-
-    /* Style form for wider screen */
     .col-33, .col-66, input[type=submit] {
         margin-top: 6px;
     }
-
-    /* Display labels and inputs next to one another */
     .col-33 {
         width: 33.3%;
     }
     .col-66 {
         width: 66.6%;
     }
-
-    /* Style submit button so not full width */
     input[type=submit] {
         width: 20%;
     }
-
-    /* Increase social media icon size */
     .fa-brands {
         font-size: 30px;
     }
